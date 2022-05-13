@@ -5,7 +5,7 @@
     "live-server": "^1.2.0",
     "markdown-it": "^8.4.0",
     "nodemon": "^1.12.1",
-    "semistandard": "^11.0.0"
+    "semistandard": "^14.0.0"
   },
   "name": "30-seconds-of-code",
   "description": "A collection of useful Javascript snippets.",
