@@ -1,0 +1,31 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - semistandard > eslint > debug:
+        patched: '2022-10-07T22:34:13.181Z'
+    - semistandard > eslint-plugin-import > debug:
+        patched: '2022-10-07T22:34:13.181Z'
+    - semistandard > eslint-plugin-import > eslint-import-resolver-node > debug:
+        patched: '2022-10-07T22:34:13.181Z'
+  SNYK-JS-LODASH-567746:
+    - concurrently > lodash:
+        patched: '2022-10-07T22:34:13.181Z'
+    - semistandard > eslint > lodash:
+        patched: '2022-10-07T22:34:13.181Z'
+    - semistandard > eslint > inquirer > lodash:
+        patched: '2022-10-07T22:34:13.181Z'
+    - semistandard > eslint > table > lodash:
+        patched: '2022-10-07T22:34:13.181Z'
+  'npm:ms:20170412':
+    - semistandard > eslint > debug > ms:
+        patched: '2022-10-07T22:34:13.181Z'
+    - semistandard > eslint-plugin-import > debug > ms:
+        patched: '2022-10-07T22:34:13.181Z'
+    - semistandard > eslint-plugin-import > eslint-import-resolver-node > debug > ms:
+        patched: '2022-10-07T22:34:13.181Z'
+  SNYK-JS-TREEKILL-536781:
+    - concurrently > tree-kill:
+        patched: '2022-10-07T22:34:13.181Z'
